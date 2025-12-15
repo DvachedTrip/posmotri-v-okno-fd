@@ -134,6 +134,9 @@ ol {
   flex-grow: 1;
   flex-basis: 0;
   overflow: hidden;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
 }
 
 .search-form__fieldset-title {
@@ -168,6 +171,7 @@ ol {
 }
 
 .content__video-card-description {
+  line-height: 16.2px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
